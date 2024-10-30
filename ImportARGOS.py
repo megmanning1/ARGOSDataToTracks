@@ -9,7 +9,7 @@
 ## Created: Fall 2024
 ## Author: meg.manning@duke.edu (for ENV859)
 ##---------------------------------------------------------------------
-#%% File Set Up
+
 # Import packages
 import sys, os, arcpy
 
@@ -17,7 +17,6 @@ import sys, os, arcpy
 inputFile = 'V:/ARGOSTracking/Data/ARGOSData/1997dg.txt'
 outputFC = "V:/ARGOSTracking/Scratch/ARGOStrack.shp"
 
-# %% Task 2
 
 # Construct a while loop to iterate through all lines in the datafile
 # Open the ARGOS data file for reading
@@ -61,4 +60,3 @@ while lineString:
 #Close the file object
 inputFileObj.close()
 
-# %%
